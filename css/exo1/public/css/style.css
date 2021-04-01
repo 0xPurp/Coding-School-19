@@ -1,0 +1,16 @@
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+
+.bgredbold{
+    font-size: 32px;
+    background-color: red;
+    font-weight: bold;
+}
+
+.surlign{
+    text-decoration: underline;
+}
