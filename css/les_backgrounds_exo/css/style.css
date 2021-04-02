@@ -136,10 +136,10 @@ h1,h3{
 /* début exo 06 background-attachement*/
 .img-12 {
     background-image: url(../images/bg_image.jpg);
-    background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 /* fin exo 06 background-attachement*/
 
