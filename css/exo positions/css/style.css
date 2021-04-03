@@ -1,0 +1,43 @@
+.rela {
+    height: 500px;
+    width: 70%;
+    background-color: purple;
+    top: 200px;
+    left: 100px;
+    position: relative;
+}
+
+.abso {
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    top: 10%;
+    right: 100px;
+    position: absolute;
+}
+
+.fix {
+    height: 150px;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    top: 0;
+    position: fixed;
+}
+
+.sticky {
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    top: 10px;
+    position: sticky;
+}
+
+.rel2 {
+    height: 2000px;
+    width: 70%;
+    background-color: cyan;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
