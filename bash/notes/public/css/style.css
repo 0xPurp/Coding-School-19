@@ -1,0 +1,48 @@
+@import url(https://allfont.net/allfont.css?fonts=orbitron-bold);
+.bg {
+    background-color: black;
+}
+
+.img {
+    margin-top: 45px;
+    width: 10%;
+    height: 10%;
+}
+
+.titre {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 38px;
+}
+
+.titre2 {
+    font-family: 'Orbitron Bold', arial;
+    color: white;
+    text-shadow: 3px 3px 7px #ae00ff;
+    font-size: 32px;
+}
+
+.txt {
+    color: white;
+    font-family: 'Orbitron Bold', arial;
+    font-size: 16px;
+}
+
+.abso {
+    position: absolute;
+    border-radius: 7%;
+    border: solid 1px cyan;
+    width: 35%;
+    padding: 0%;
+    margin-left: 550px;
+    padding-left: 220px;
+    padding-right: 0%;
+}
+
+.img2 {
+    margin-top: 45px;
+    width: 10%;
+    height: 10%;
+    margin-left: 1200px;
+    
+}
