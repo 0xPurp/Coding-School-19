@@ -1,13 +1,14 @@
-body{
+body {
     margin: 0px;
 }
+
 section {
     background-color: burlywood;
 }
 
-.flex-container{
+.flex-container {
     align-items: center;
-    display:flex;
+    display: flex;
     height: 100vh;
 }
 
@@ -19,4 +20,5 @@ section {
     padding: 30px;
     margin-top: 170px;
     height: 80px;
+    
 }
