@@ -1,0 +1,41 @@
+header {
+    background-color: blue;
+    height: 50px;
+    margin 5px;
+    border-radius: 5px;
+}
+
+nav {
+    height: 660px;
+    background-color: orangered;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+article {
+    height: 660px;
+    background-color: lightskyblue;
+    flex-grow: 4;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+aside {
+    height: 660px;
+    background-color: orangered;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+footer {
+    background-color: blue;
+    height: 50px;
+    margin 5px;
+    border-radius: 5px;
+}
