@@ -1,0 +1,105 @@
+body {
+    margin: 0
+}
+
+/* Exo margin */
+
+section {
+    background-color: #4da6ff;
+}
+
+h2 {
+    background-color: yellow;
+    width: 300px;
+    border: 2px solid;
+}
+
+section:first-child>:nth-child(3) {
+    margin: 50px;
+}
+
+section:first-child>:nth-child(5) {
+    margin-left: 20%;
+}
+
+section:first-child>:nth-child(7) {
+    margin: auto;
+}
+
+/* fin exo margin */
+
+/* exo padding */
+
+section:nth-child(2)>:h2:first-of-type {
+    padding: 50px;
+}
+
+section:nth-child(2)>:h2:last-of-type {
+    padding-left: 20%;
+}
+
+/* fin exo padding */
+
+/* exo display */
+
+section:nth-child(3) {
+    margin: 50px;
+    padding: 20px;
+}
+
+section:nth-child(3)>h2 {
+    display: inline-block;
+}
+
+section:nth-child(3)>h2 {
+    display: inline-block;
+}
+
+section:nth-child(3)>h2:last-of-type {
+    display: none;
+}
+
+/* fin exo display */
+
+*/
+/* exo float  */
+
+section:nth-child(4)>h2 {
+    width: auto;
+    float: left;
+}
+
+/* fin float */
+
+/* exo position */
+
+section:nth-child(5)>h2 {
+    position: fixed;
+    background-color: green;
+    margin: 0;
+    top: 50px;
+    left: 50%;
+}
+
+section:nth-child(5) {
+    position: relative;
+}
+
+/* fin exo position */
+
+/* exo position (priorité) */
+
+section:nth-child(6)>h2:last-of-type {
+    background-color: blue;
+    margin-left: 100px;
+}
+
+section:nth-child(6)>h2 {
+    position: absolute;
+}
+
+section:nth-child(6)>h2:first-of-type {
+    z-index: -1;
+}
+
+/* fin exo position (priorité) */

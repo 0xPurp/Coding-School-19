@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+section {
+    background-color: burlywood;
+}
+
+.flex-container{
+    align-items: center;
+    display:flex;
+    height: 100vh;
+}
+
+.flex-item {
+    background-color: orangered;
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    padding: 30px;
+    margin-top: 170px;
+    height: 80px;
+}
