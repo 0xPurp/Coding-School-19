@@ -1,0 +1,53 @@
+div {
+  animation: tlen 4s;
+}
+
+@keyframes tlen {
+  0% {
+    left: 0px;
+    top: 0px;
+    background-color: red;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+    background-color: green;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+    background-color: indigo;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+    background-color: blue;
+    }
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: red;
+  }
+}
+
+div:hover {
+  animation-play-state: paused;
+}
+
+h2 {
+  animation: bond 1s infinite alternate;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+  position: absolute;
+}
+
+@keyframes bond {
+  0% {
+    bottom: 100px;
+  }
+  100% {
+    bottom: 0%;
+    transform: scaleY(0.5);
+  }
+}
+
