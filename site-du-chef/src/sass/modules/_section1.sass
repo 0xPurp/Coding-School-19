@@ -1,0 +1,87 @@
+.contenu1
+    background-image: url("../../public/images/main_bg.jpg")
+    .bg-light
+        border: $grisclair solid 1px
+.corner
+    padding: 0%
+.titreh1
+    margin-bottom: 0%
+    background-image: url(../../public/images/decoration_line.png)
+    background-repeat: no-repeat
+    background-position-x: 50%
+    background-position-y: bottom
+    p
+        color: $gray-dark
+    span
+        color: $red 
+        font-size: 50px
+
+.boutonsliste
+    a
+        font-family: Courgette
+        border: none
+        border-bottom: solid 1px $gray
+        border-right: solid 1px $gray
+        i
+            color: $gray
+        span
+            font-size: 30px
+            color: $dark
+    .active
+        border-right: 5px $danger solid
+        border-bottom: solid 1px $gray
+        i
+            color: $danger
+
+.card
+    max-height: max-content
+    border: none
+    border-bottom: solid 1px $gray
+    background: none
+.card-img
+    img
+        border-radius: 50%
+        border: 5px $gray solid
+.dollar
+    p
+        background-color: #ebe6e6
+        font-size: 20px
+.imgDecoS1
+    background-image: url("../../public/images/decoration_line.png")
+    background-repeat: no-repeat
+    background-position-x: 50%
+    background-position-y: center
+// Pc
+@media screen and (min-width: 1024px)
+    .divlistecard
+                #list-home, #list-profile, #list-messages, #list-settings
+
+                        .card
+                            width: 48%
+                            div .row
+                                width: 100%
+
+
+//Tablette 
+@media screen and (min-width: 600px) and (max-width: 1023px)
+    .boutonsliste
+        a   
+            span
+                font-size: 25px
+
+
+// Mobile
+@media screen and (min-width: 320px) and (max-width: 599px)
+
+
+    .divlistecard
+                #list-home, #list-profile, #list-messages, #list-settings
+
+                        .card
+                            width: 100%
+                            div .row
+                                width: 100%
+                                margin: 0%
+    .corner
+        display: none
+        visibility: hidden
