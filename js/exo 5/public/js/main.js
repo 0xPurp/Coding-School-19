@@ -1,14 +1,16 @@
 // Variable
-let phrase = 'Bonjour tout le monde ';
+let phrase = 'Bonjour tout le monde    ';
 
 // Affiche la longueur de la phrase
 console.log(phrase.length);
 
 //Supprime l'espace à la fin grace à une fonction 
-console.log(phrase.trimEnd());
+phrase = phrase.trimEnd();
+console.log(phrase);
 
 //Reafficher la longueur de la phrase
 console.log(phrase.length);
+
 
 //Afficher uniquement la dernière lettre de la phrase
 console.log(phrase.substr(20));
@@ -23,4 +25,5 @@ console.log(phrase.replace(".", "Bonjour"));
 console.log(phrase.replace("tout le monde", ""));
 
 // donne un nombre aléatoire
-console.log(Math.ceil(Math.random() * 100);
+console.log(Math.ceil(Math.random() * 1000));
+console.log()
