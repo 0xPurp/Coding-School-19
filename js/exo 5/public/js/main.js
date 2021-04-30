@@ -11,7 +11,7 @@ console.log(phrase.trimEnd());
 console.log(phrase.length);
 
 //Afficher uniquement la dernière lettre de la phrase
-console.log(phrase.substr(20))
+console.log(phrase.substr(20));
 
 // Enlever "Bonjour" de la phrase
 console.log(phrase.replace("Bonjour", "."));
@@ -20,7 +20,7 @@ console.log(phrase.replace("Bonjour", "."));
 console.log(phrase.replace(".", "Bonjour"));
 
 //Supprimer toute la phrase sauf "Bonjour" grâce à une méthode
-console.log(phrase.replace("tout le monde", ""))
+console.log(phrase.replace("tout le monde", ""));
 
 // donne un nombre aléatoire
-console.log(Math.ceil(Math.random() * 100))
+console.log(Math.ceil(Math.random() * 100);
