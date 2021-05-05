@@ -24,6 +24,9 @@ console.log(phrase.replace(".", "Bonjour"));
 //Supprimer toute la phrase sauf "Bonjour" grâce à une méthode
 console.log(phrase.replace("tout le monde", ""));
 
+
+
+
 // donne un nombre aléatoire
 console.log(Math.ceil(Math.random() * 1000));
 console.log()
