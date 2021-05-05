@@ -29,3 +29,29 @@ console.log(tabExo);
 // exo 7
 tabExo.reverse();
 console.log(tabExo);
+
+
+// exo 8
+let boite = [];
+boite.push("crabe");
+boite.push("aquarium");
+console.log(boite);
+
+boite.unshift("confiture");
+console.log(boite);
+
+boite.push("crevette", "feuille", "baguettes");
+console.log(boite);
+
+boite.splice(0,3);
+console.log(boite);
+
+boite.unshift("pantalon");
+console.log(boite);
+console.log(boite.length);
+
+boite.splice(boite.length-2);
+console.log(boite)
+
+boite.splice(0);
+console.log(boite);
