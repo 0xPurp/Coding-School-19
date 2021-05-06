@@ -24,3 +24,5 @@ if (gues != random) {
 }else {
     alert("An error has been occured");
 }
+
+// exo 3
