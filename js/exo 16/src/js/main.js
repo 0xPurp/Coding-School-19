@@ -62,6 +62,7 @@ let nom = prompt("Veuillez entrer votre prénom :");
 
 if (nom == "") {
     alert("Attention vous devez remplir le champs ci-dessous, Quel est votre prénom");
+    nom = prompt("Veuillez entrer votre prénom :");
 } else {
     alert("Bonjour, " + nom);
 }
@@ -120,13 +121,13 @@ age = prompt("Quel âge avez vous ?");
 ageofficiel = parseInt(age)
 if (ageofficiel > 18) {
     alert("Vous êtes majeur vous pouvez réserver");
-}else if (ageofficiel < 18) {
+} else if (ageofficiel < 18) {
     alert("Vous êtes mineur, l’accès est réservé aux grands");
-}else if (ageofficiel <= 0) {
+} else if (ageofficiel <= 0) {
     alert("Vous n'êtes même pas née n'essayez pas de tricher.")
-}else if (ageofficiel >= 100) {
+} else if (ageofficiel >= 100) {
     alert("vous êtes encore vivant ? Évitez de voir ce film pour le rester.")
-}else if (ageofficiel == 18 ) {
+} else if (ageofficiel == 18) {
     alert("pouvez rentrer mais c’est tout juste, n'oubliez pas que ce film peut être choquant.")
 }
 
@@ -154,9 +155,10 @@ if (chat == "oui") {
 if (vacances !== true) {
     alert("pas de problème, ne partez pas en vacance")
 }
-if (riche !== true && vacances == true ||chat == true && vacances == true) {
+if (riche !== true && vacances == true || chat == true && vacances == true) {
     alert("Même si vous le voulez, vous pouvez pas partir en vacances")
 }
-if(riche == true && chat !== true && vacances == true) {
+if (riche == true && chat !== true && vacances == true) {
     alert("Tout est parfait, partez en vacances")
 }
+
