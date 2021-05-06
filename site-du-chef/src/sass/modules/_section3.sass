@@ -1,0 +1,136 @@
+.formulaire
+    margin: 0% 20%
+    border-radius: 20px
+
+.card-img-overlay
+    max-height : max-content
+    border-radius: 20px
+    h5
+        margin: 5% 0%
+        font-size: 18px
+        font-weight: 300
+        text-align: center
+        span
+            font-size: 25px
+    .radius
+        border-radius: 10px
+        display: flex
+        justify-content: flex-end
+.milieu
+    padding: 0%
+    dislay: flex
+    justify-content: center
+
+.bouton3
+    font-weight: light
+    border: none
+    border-radius: 30px
+.taille
+    width: 45%
+    margin: 1% 2%
+
+#blog
+    div
+        #imgBlog
+            position: relative
+            img
+                border-radius: 20px
+                border: 4px solid $gray
+        .stat
+            background-color: $danger
+            border-radius: 10px
+            padding: 2% 6% 0% 3%
+            color: $white
+            width: max-content
+            position: absolute
+            left: 15%
+            bottom: 33%
+            p
+                font-size: 18px
+                .chiffre
+                    font-size: 25px
+                    font-weight: bold
+                .barre
+                    font-size: 30px
+        .description
+            padding: 10% 5%
+            h5
+                padding-left: 10%
+            p
+                padding-left: 10%
+
+@media screen and (min-width: 600px) and (max-width: 1023px)
+    #blog
+        div
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+            #imgBlog
+                position: relative
+            .stat
+                padding: 1%
+                width: 80%
+                position: absolute
+                left: 10%
+                bottom: 40%
+                p
+                    font-size: 12px
+                    margin: 2% 3%
+                    .chiffre
+                        font-size: 18px
+                        font-weight: bold
+                    .barre
+                        font-size: 20px
+            .description
+                padding: 15% 0% 0% 0%    
+
+
+@media screen and (min-width: 320px) and (max-width: 599px)
+    .formulaire
+        margin: 0% 10%
+        border-radius: 20px
+    .taille
+        width: 95%
+        margin: 1% 2%
+
+    .card-img-overlay
+        max-height : max-content
+        border-radius: 20px
+        h5
+            margin: 5% 0%
+            font-size: 15px
+            font-weight: 300
+            text-align: center
+            span
+                font-size: 18px
+ 
+
+    #blog
+        div
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+            #imgBlog
+                position: relative
+            .stat
+                padding: 1%
+                display: flex
+                flex-wrap: wrap
+                width: 40%
+                position: absolute
+                left: 30%
+                bottom: 50%
+                p
+                    font-size: 12px
+                    margin: 0% 8%
+                    .chiffre
+                        font-size: 18px
+                        font-weight: bold
+                    .barre
+                        font-size: 20px
+            .description
+                padding: 26% 0% 20% 10%
+                h5
+                    padding-left: 21%
+                p
+                    padding-left: 21%
