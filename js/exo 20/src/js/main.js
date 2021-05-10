@@ -36,9 +36,6 @@ console.log(typeObject);
 console.log(typeAutre);
 
 
-
 //     ## Triez le contenu du tableau donnees en verifiant le type de chaque donnée
 //     ## Creez 4 Tableaux : 'typeString' , 'typeNumber' , 'typeObject' , 'typeAutre.
 //     ## Videz le tableau "donnees" en redistribuant avec l'aide de condition et d'une function prédéfinie trouvée sur internet dans les bons tableaux.
-
-
