@@ -4,4 +4,6 @@
 
 - # Exo 2 Boucle FOREACH
     - ## Créez un un array qui contient 5 éléments
-    - ## Affichez touts les éléments a l'aide d'une boucle foreach
+    - ## Affichez touts les éléments a l'aide d'une boucle foreach.
+
+    
