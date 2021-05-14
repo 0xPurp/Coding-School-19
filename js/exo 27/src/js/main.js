@@ -60,3 +60,39 @@ let perso2 = {
 }
 
 perso2.rob()
+
+
+// exo 5
+
+let vieille_dame = {
+    age : 80,
+    nom : {
+        prenom : "Marie",
+        nom : "Gazo"
+    },
+    moral : "mal",
+    objet : "cane",
+
+    parler(){
+        if (this.moral == "mal") {
+            alert("Casse toi")
+        }else {
+            alert(`Bonjour ${vieil_homme.nom}`)
+        }
+    }
+}
+
+let vieil_homme = {
+    nom :"Bernard",
+
+    adoucir(){
+        if (vieille_dame.moral == "mal"){
+            vieille_dame.moral = "bien";
+        }
+    }
+}
+
+vieille_dame.parler()
+console.log(vieille_dame);
+vieil_homme.adoucir()
+vieille_dame.parler()
