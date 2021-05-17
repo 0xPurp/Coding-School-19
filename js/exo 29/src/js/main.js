@@ -69,7 +69,7 @@ personnage.couper();
 
 
 
-// exo 3
+exo 3
 class Objet {
     constructor(nom, prix) {
         this.nom = nom,
@@ -88,7 +88,7 @@ class Personna {
             this.argent = argent
         this.prendre = () => {
 
-            },
+        },
             this.acheter = (vendeur, objet) => {
                 if (this.argent >= objet.prix) {
                     this.sac.push(vendeur.sac[vendeur.sac.indexOf(objet)].nom)
@@ -110,3 +110,5 @@ mathieu.prendre();
 
 console.log(bernard);
 console.log(mathieu)
+
+
