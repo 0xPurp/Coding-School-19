@@ -63,8 +63,3 @@ let calcul = (nb1, operator, nb2) => {
 }
 
 console.log(calcul(parseInt(prompt("Veuillez encoder un chiffre")), prompt("Veuillez encoder un operateur"), parseInt(prompt("Veuillez encoder un chiffre"))));
-
-
->>>
->>>
-> 23 fc5c76ef0450e742719e6166cf1482036a1342
