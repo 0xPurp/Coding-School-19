@@ -69,7 +69,7 @@ personnage.couper();
 
 
 
-exo 3
+// exo 3
 class Objet {
     constructor(nom, prix) {
         this.nom = nom,
