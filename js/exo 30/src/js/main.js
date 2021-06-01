@@ -77,3 +77,5 @@ perso.seDeplacer(mgk, dar, bus);
 
 // // ### Faites un console.log() de votre argent, ainsi que l'argent du Bus
 console.log(perso.argent + " " + bus.caisse);
+
+
